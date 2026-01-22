@@ -7,8 +7,8 @@ interface SeparatorProps extends React.HTMLAttributes<HTMLDivElement> {
 function Separator({ className, ref, ...props }: SeparatorProps) {
   return (
     <div
-      ref={ref}
       className={cn("h-px w-full bg-black/10", className)}
+      ref={ref}
       {...props}
     />
   );

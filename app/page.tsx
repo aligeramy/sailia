@@ -5,42 +5,42 @@ export default function Home() {
   return (
     <div className="flex min-h-screen items-center justify-center bg-white px-4">
       <Card className="w-full max-w-lg border-black/20 shadow-lg">
-        <CardContent className="flex flex-col items-center text-center px-12 py-16 space-y-8">
+        <CardContent className="flex flex-col items-center space-y-8 px-12 py-16 text-center">
           <div className="space-y-3">
-            <h1 className="text-6xl font-light text-black tracking-tight">
+            <h1 className="font-light text-6xl text-black tracking-tight">
               Sailia.ca
             </h1>
-            <Separator className="w-16 mx-auto" />
+            <Separator className="mx-auto w-16" />
           </div>
 
           <div className="space-y-2 pt-4">
-            <p className="text-xl text-black/90 font-light tracking-wide">
+            <p className="font-light text-black/90 text-xl tracking-wide">
               Sail, Sail Cover & Marine Canvas
             </p>
-            <p className="text-lg text-black/70 font-light">
+            <p className="font-light text-black/70 text-lg">
               New & Reconditioning
             </p>
-            <p className="text-base text-black/60 font-light pt-2">
+            <p className="pt-2 font-light text-base text-black/60">
               Kite, Wing & Canopy restoration
             </p>
           </div>
 
-          <Separator className="w-full my-4" />
+          <Separator className="my-4 w-full" />
 
-          <div className="flex flex-col gap-5 text-base text-black/80 font-light">
+          <div className="flex flex-col gap-5 font-light text-base text-black/80">
             <p className="text-lg">(416) 823-7981</p>
             <p>
               <a
+                className="transition-colors duration-200 hover:text-black"
                 href="mailto:info@sailia.ca"
-                className="hover:text-black transition-colors duration-200"
               >
                 info@sailia.ca
               </a>
             </p>
             <p>
               <a
+                className="transition-colors duration-200 hover:text-black"
                 href="https://www.sailia.ca"
-                className="hover:text-black transition-colors duration-200"
               >
                 www.sailia.ca
               </a>
@@ -48,8 +48,8 @@ export default function Home() {
             <p className="pt-2">
               Instagram:{" "}
               <a
+                className="transition-colors duration-200 hover:text-black"
                 href="https://instagram.com/sailia.ca"
-                className="hover:text-black transition-colors duration-200"
               >
                 sailia.ca
               </a>

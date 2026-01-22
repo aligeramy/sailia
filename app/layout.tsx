@@ -14,7 +14,8 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Sailia.ca - Sail, Sail Cover & Marine Canvas",
-  description: "Sail, Sail Cover & Marine Canvas (New & Reconditioning). Kite, Wing & Canopy restoration.",
+  description:
+    "Sail, Sail Cover & Marine Canvas (New & Reconditioning). Kite, Wing & Canopy restoration.",
 };
 
 export default function RootLayout({

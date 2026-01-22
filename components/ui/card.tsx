@@ -7,11 +7,11 @@ interface CardProps extends React.HTMLAttributes<HTMLDivElement> {
 function Card({ className, ref, ...props }: CardProps) {
   return (
     <div
-      ref={ref}
       className={cn(
         "rounded-none border border-black/10 bg-white shadow-sm",
         className
       )}
+      ref={ref}
       {...props}
     />
   );
@@ -22,7 +22,7 @@ interface CardContentProps extends React.HTMLAttributes<HTMLDivElement> {
 }
 
 function CardContent({ className, ref, ...props }: CardContentProps) {
-  return <div ref={ref} className={cn("p-6 pt-0", className)} {...props} />;
+  return <div className={cn("p-6 pt-0", className)} ref={ref} {...props} />;
 }
 
 export { Card, CardContent };
