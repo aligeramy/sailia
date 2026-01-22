@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <div className="flex min-h-screen items-center justify-center bg-white">
-      <main className="flex flex-col items-center justify-center text-center px-8">
+      <main className="flex flex-col items-center justify-center text-center px-12 py-16 border border-black rounded-lg">
         <h1 className="text-4xl font-semibold mb-4 text-black">
           Sailia.ca
         </h1>
