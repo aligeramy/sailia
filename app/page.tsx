@@ -10,7 +10,7 @@ export default function Home() {
         </p>
         <p className="text-lg mb-2 text-black/80">
           New & Reconditioning
-        </p>gg
+        </p>
         <p className="text-base mb-12 text-black/70">
           Kite, Wing & Canopy restoration
         </p>
